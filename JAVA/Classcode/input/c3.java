@@ -1,4 +1,4 @@
-//passing the inter to steing by using wraper class 
+//passing the intger to steing by using wraper class 
 
 import java.io.*;
 
