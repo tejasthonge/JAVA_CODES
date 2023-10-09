@@ -27,25 +27,29 @@ class Serarch{
 	
 		int arr[] = new int[]{1,3,5,6};
 		
-		int n= 2;
+		//int n= 2;
+		//int n= 2;
+		int n= 7;
 		int N=arr.length;
-
+		int j= 1;
+		
 		for(int i=0;i<N;i++){
-			int j=1;
-			if(arr[i]==n){
-			System.out.println(i);
-			break;
+			if(n==arr[i]){
+				System.out.println(i);
+				
 			}
-			else{
-			if(n==j){
-			System.out.println(i+1);
+			else if(j == n){
+				
+				System.out.println(i);
 			}
+			/*
+			else if(arr[i] + j ==N){
+				System.out.println(i+j);
+			}*/
 			j++;
-			}
-			
 			}
 		}
 	
-	}
+}
 
 
